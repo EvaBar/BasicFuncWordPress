@@ -32,8 +32,11 @@ public class ProfileManagingPage {
     @FindBy(xpath = "//input[@type='checkbox']")
     public WebElement hideGravatarBox;
 
-    @FindBy(xpath = "//span[@class='edit-gravatar__label']")
+    @FindBy(xpath = "//span[.='Click to change photo']")
     public WebElement upload;
+
+    @FindBy(xpath = "//button[@class='button image-editor__buttons-button is-primary']")
+    public WebElement changePhotoButton;
 
 
 
