@@ -54,6 +54,7 @@ public class ProfileStep_Defs {
         System.out.println(newList);
 
         Assert.assertEquals(profileList, newList);
+        //System.out.println("");
 
 
     }
